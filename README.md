@@ -101,3 +101,10 @@ jmeter -n -t jmx\login_stress.jmx -Jthreads=50 -Jramp=5 -Jduration=30 `
 ## 相关文档
 
 - 完整分析：`docs/性能测试报告.md`（含瓶颈证据链、四条优化建议与预期收益）
+
+---
+
+## 相关作品
+
+- [**edu-admin-api-auto-test**](https://github.com/xzq6666/edu-admin-api-auto-test) —— 同一套教务系统的接口功能自动化：285 条用例、187 端点全覆盖、229 条全绿。
+  本仓库回答"系统能扛多少"，那个仓库回答"功能做得对不对"，合起来才是一次完整的测试评估。
