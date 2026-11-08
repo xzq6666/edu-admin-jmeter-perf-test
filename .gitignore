@@ -1,0 +1,15 @@
+# JMeter 运行产物（每次执行重新生成）
+results/html/
+results/*.jtl
+results/*.log
+results/*.out.txt
+
+# 编辑器与系统
+.idea/
+.vscode/
+*.bak
+*.bak*
+Thumbs.db
+desktop.ini
+results/*_out.txt
+results/smoke*

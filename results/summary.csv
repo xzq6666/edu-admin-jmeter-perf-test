@@ -1,0 +1,7 @@
+scenario,threads,duration,samples,tps,avg_ms,min_ms,max_ms,p50_ms,p90_ms,p95_ms,p99_ms,error_rate,report_dir
+login_10,10,30,244,8.13,1245.3,343,10751,863,1329,3982,8096,0,results/html/login_10
+login_50,50,30,221,7.37,6546.3,886,13770,7402,10734,11566,12894,0,results/html/login_50
+login_100,100,30,384,12.8,7599.7,1722,15018,6107,15005,15010,15014,13.54,results/html/login_100
+query_10,10,30,4892,163.07,56.3,2,873,53,103,125,217,0,results/html/query_10
+query_50,50,30,2592,86.4,533.9,3,3731,389,1193,1617,2239,0,results/html/query_50
+query_100,100,30,2233,74.43,1249,3,5806,1080,2566,3078,3941,0,results/html/query_100
